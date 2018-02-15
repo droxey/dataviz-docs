@@ -123,7 +123,7 @@ This will allow you to get a feel for using git in a guided setting, before you 
     ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC+SJSGSCeSeLnOg543Hyqh3OcAENvugks8ygkoOkEA4g652gK0ES7CjjpBy4GS/XnaUWiD9iaoE4soE8dqhe/psCoiU+QxGmkjNapLtQAOu1W2v/SEh3Jao+rtfop0S+Ak96fiOVgUgupFAN1FXV1iYdpwyk7rR3Kv/T2M9Ce06Bk5KupdgNzF7Eg/tmFx8H2yVmeQ2J3MWM948ZvWmbBwtbcDRQ6ZtnXSoEof1Wg8agzyisq0Yoi3rXqAIxr1Hevs4g79Lrf65548yTfqZqyljSFA/h4VntXsZYKIWoXti5uPstrwRF6oaH8dm1l74jLAKC/XlqnsqVkRWn/Updj+x8g3+EdtFiWpUwEIMWWDbjPk0HHTfOS06716Hcji0hg4Kfipe03QjhD8Vqp/snaYCb8R3OSZOK1H3Zj9n1JgHhOoFYzk0gstV9DGRmrm2ywrQh3Q7fs23pzrZARGBhRHwk5XfFQl85D7oJffBbfpqjDdyzcHYOAo3mlDfwkfl1nHxynWrwCk+0KKD0zLVsqtkSVlNfQv2JqSSc6ox6vktO7RWKg5/T0b9r0fnNcYfGBVnoJDulJPJr7ynSUDRi2hX5WpMDomylUahVYN/VlAZBwvuWdOM0h3ZUsQEPjauN0k+mY3nQVTIa0hWl1vszTddcxLZKK5mJsvlnL7HMBQxQ== dani@bitoriented.com
     ```
 
-1. With your mouse, highlight the entire public key, beginning with `ssh-rsa` and ending with your email address. Copy the highlighted public to the clipboard.
+1. With your mouse, highlight the entire [public key](https://en.wikipedia.org/wiki/Public-key_cryptography), beginning with `ssh-rsa` and ending with your email address. Copy the highlighted public key to the clipboard.
 
 1. Add the key to [**GitLab**](http://ucb.bootcampcontent.com/profile/keys):
     - Click the above link and paste your key in the 'Key' section and give it a relevant 'Title'. Use an identifiable title like 'Work Laptop - Windows 7' or 'Home MacBook Pro 15'.
@@ -205,13 +205,26 @@ Quick overview of Git in video format. Each video is approximately 5 minutes lon
 - [Cheat Sheet (PDF)](https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
     - Git  is  the  open  source  distributed  version  control  system  that  facilitates  GitHub  activities  on  your  laptop  or desktop. This cheat sheet summarizes commonly used Git command line instructions for quick reference
 
+### GUIs
+
+#### Free
+
 - [GitHub Desktop](https://desktop.github.com/)
     - macOS / Windows: A desktop, GUI based Git and GitHub client.
 
-- [VSCode: Version Control](https://code.visualstudio.com/docs/editor/versioncontrol)
-    - Handy documentation for the default Source Control Manager that ships with VSCode.)
+- [GitKraken](https//www.gitkraken.com)
+    - macOS / Windows / Linux: The legendary Git GUI client.
 
-### Repositories to Note
+- [VSCode: Version Control](https://code.visualstudio.com/docs/editor/versioncontrol)
+    - Handy documentation for the default Git integration that ships with VSCode.
+
+#### Paid
+
+- [Tower 2](https://www.git-tower.com/mac/)
+    - macOS / Windows: Version control with Git made easy in a beautiful, efficient, and powerful app.
+
+
+### Repositories of Note
 
 - [git/git](https://github.com/git/git)
     - The Git source code on GitHub
