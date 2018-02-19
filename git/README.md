@@ -13,6 +13,7 @@ This document will provide a guide for the following topics:
 - Verifying Your Installation
 - Generating and Configuring SSH Keys
 - Cloning a Remote Repository to Your Local Machine
+- Updating Your Local Repository When New Content is Availabl
 - Adding, Committing, and Pushing Local Changes to Remote Repositories
 - [WIP] Get Advanced with Git
 - More Practice/Additional Educational Resources
@@ -52,7 +53,8 @@ This will allow you to get a feel for using git in a guided setting, before you 
 1. Install Git via `apt` by running:
 
     ```bash
-    sudo apt-get install git-all
+    $ sudo apt-get update
+    $ sudo apt-get install git-all
     ```
 
 #### Red Hat/CentOS:
@@ -60,7 +62,8 @@ This will allow you to get a feel for using git in a guided setting, before you 
 1. Install Git via `dnf` by running:
 
     ```bash
-    sudo apt-get install git-all
+    $ sudo dnf -y update
+    $ sudo dnf install -y git 
     ```
 
 ## Verifying Your Installation
@@ -166,6 +169,12 @@ remote: Compressing objects: 100% (96/96), done.
 remote: Total 110 (delta 10), reused 0 (delta 0)
 Receiving objects: 100% (110/110), 50.72 MiB | 2.69 MiB/s, done.
 Resolving deltas: 100% (10/10), done.
+```
+
+## Updating Your Local Repository When New Content is Available
+
+```bash
+$ git pull origin master
 ```
 
 ## Adding, Committing, and Pushing Local Changes to Remote Repositories
