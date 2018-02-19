@@ -10,6 +10,7 @@ This document will provide a guide for the following topics:
   - macOS
   - Windows 10
   - Linux
+- Configuring Git
 - Verifying Your Installation
 - Generating and Configuring SSH Keys
 - Cloning a Remote Repository to Your Local Machine
@@ -76,7 +77,7 @@ This will allow you to get a feel for using git in a guided setting, before you 
     git version 2.15.1
     ```
 
-## Configure Git
+## Configuring Git
 
 1. Configure your global username and email address. **IMPORTANT**: If you skip this step, Git will produce a warning each time you push to a remote branch.
 
