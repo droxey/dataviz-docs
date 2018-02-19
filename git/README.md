@@ -13,7 +13,7 @@ This document will provide a guide for the following topics:
 - Verifying Your Installation
 - Generating and Configuring SSH Keys
 - Cloning a Remote Repository to Your Local Machine
-- Updating Your Local Repository When New Content is Availabl
+- Updating Your Local Repository When New Content is Available
 - Adding, Committing, and Pushing Local Changes to Remote Repositories
 - [WIP] Get Advanced with Git
 - More Practice/Additional Educational Resources
