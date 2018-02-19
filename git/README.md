@@ -5,19 +5,18 @@
 This document will provide a guide for the following topics:
 
 
-- Intro to Git: Warmup Activity (15 Minutes)
-- Installing Git
-  - macOS
-  - Windows 10
-  - Linux
-- Configuring Git
-- Verifying Your Installation
-- Generating and Configuring SSH Keys
-- Cloning a Remote Repository to Your Local Machine
-- Updating Your Local Repository When New Content is Available
-- Adding, Committing, and Pushing Local Changes to Remote Repositories
-- [WIP] Get Advanced with Git
-- More Practice/Additional Educational Resources
+- [Intro to Git: Warmup Activity (15 Minutes)](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#intro-to-git-warmup-activity-15-minutes)
+- [Installing Git](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#installing-git)
+  - [macOS](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#macos)
+  - [Windows 10](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#windows-10)
+  - [Linux](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#linux)
+- [Configuring Git](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#configuring-git)
+- [Verifying Your Installation](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#verifying-your-installation)
+- [Generating and Configuring SSH Keys](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#generating-and-configuring-ssh-keys)
+- [Cloning a Remote Repository to Your Local Machine](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#cloning-a-remote-repository-to-your-local-machine)
+- [Updating Your Local Repository When New Content is Available](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#updating-your-local-repository-when-new-content-is-available)
+- [Adding, Committing, and Pushing Local Changes to Remote Repositories](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#adding-committing-and-pushing-local-changes-to-remote-repositories)
+- [More Practice/Additional Educational Resources](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md#more-practiceadditional-educational-resources)
 
 
 ## Intro to Git: Warmup Activity (15 Minutes)
