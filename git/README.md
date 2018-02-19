@@ -79,6 +79,7 @@ This will allow you to get a feel for using git in a guided setting, before you 
 ## Configuring Git
 
 1. Configure your global username and email address. 
+
 **‼️ IMPORTANT: If you skip this step, Git will produce a warning each time you push to a remote branch.**
 
     ```bash
@@ -119,6 +120,7 @@ This will allow you to get a feel for using git in a guided setting, before you 
 ## Generating and Configuring SSH Keys
 
 1. Run the following commands. 
+
    **‼️ IMPORTANT: DO NOT ENTER A PASSWORD WHEN PROMPTED**. Just hit enter.
 
     ```bash
