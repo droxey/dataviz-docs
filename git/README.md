@@ -26,7 +26,7 @@ This will allow you to get a feel for using git in a guided setting, before you 
 
 ## Installing Git
 
-**NOTE**: $ denotes a command that must be pasted into `Terminal`/`Git Bash`.
+**‼️ IMPORTANT: $ denotes a command that must be pasted into `Terminal`/`Git Bash`.**
 
 ### macOS
 
@@ -78,7 +78,8 @@ This will allow you to get a feel for using git in a guided setting, before you 
 
 ## Configuring Git
 
-1. Configure your global username and email address. **IMPORTANT**: If you skip this step, Git will produce a warning each time you push to a remote branch.
+1. Configure your global username and email address. 
+**‼️ IMPORTANT: If you skip this step, Git will produce a warning each time you push to a remote branch.**
 
     ```bash
     $ git config --global user.name "Dani Roxberry"
@@ -117,7 +118,8 @@ This will allow you to get a feel for using git in a guided setting, before you 
     ```
 ## Generating and Configuring SSH Keys
 
-1. Run the following commands. **DO NOT ENTER A PASSWORD WHEN PROMPTED**. Just hit enter.
+1. Run the following commands. 
+   **‼️ IMPORTANT: DO NOT ENTER A PASSWORD WHEN PROMPTED**. Just hit enter.
 
     ```bash
     $ ssh-keygen -t rsa -C "your.email@example.com" -b 4096
