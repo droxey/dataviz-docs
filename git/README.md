@@ -22,7 +22,9 @@ This document will provide a guide for the following topics:
 ## Intro to Git: Warmup Activity (15 Minutes)
 
 Before setting Git up on your development machine, consider attempting the 'Try Git' challenge!
-This will allow you to get a feel for using git in a guided setting, before you run the commands on your machine. Highly recommended! [Interactive: Learn Git Online](https://try.github.io/levels/1/challenges/1)
+This will allow you to get a feel for using git in a guided setting, before you run the commands on your machine. 
+
+**Highly recommended: [Interactive: Learn Git Online](https://try.github.io/levels/1/challenges/1)**
 
 ## Installing Git
 
