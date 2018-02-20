@@ -3,7 +3,7 @@
 ## Prerequisites
 
 1. Sign up for an account on GitHub. Choose your username wisely! You'll be professionally associated with this account.
-1. Set up Git on your local machine according to [this guide](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md)
+1. Set up Git on your local machine according to [this guide](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md).
 
 ## Step by Step
 
