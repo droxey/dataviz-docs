@@ -13,7 +13,9 @@
     * Give it a sensible name and descripition.
     * Leave the rest of the settings as default, unless you know what you're doing!
 
-1. In `Terminal.app` or `Git Bash`, navigate to the directory in which you store all your repos. In class, we configured it to `~/dev/repos`.
+1. In `Terminal.app` or `Git Bash`, navigate to the directory in which you store all your repos. 
+
+In class, we configured it to `~/dev/repos`.
 
     ```bash
     $ cd ~/dev/repos
