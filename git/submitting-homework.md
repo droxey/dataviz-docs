@@ -22,7 +22,9 @@
     ```bash
     $ cd my-homework-assignment && open .
     ```
-1. Move your completed assignment files to the open window.
+1. If you are **beginning your assignment**, create any required files and folders in this directory, then **commit and push your progress incrementally** to take advantage of the version control features Git provides.
+
+    **If you've already completed your assignment** before reading this guide, simply **move your completed assignment files to the newly opened window**.
 1. In `Terminal.app` or `Git Bash`, add, commit, and push your files to your new GitHub repository:
     ```bash
     $ git add .
