@@ -46,7 +46,8 @@ This will allow you to get a feel for using git in a guided setting, before you 
 
 1. Navigate to [Git: Download Windows Package](https://git-scm.com/download/win) in your browser.
 1. If prompted, save the file.
-1. Navigate to the directory you saved the file in, and double-click to install.
+1. Navigate to the directory you saved the file in, and double-click to launch the installer.
+1. Hit **Next >** on each screen to select the default settings and complete the installation.
 
 ### Linux
 
