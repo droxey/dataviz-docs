@@ -15,7 +15,7 @@
 
 1. In `Terminal.app` or `Git Bash`, navigate to the directory in which you store all your repos. 
 
-In class, we configured it to `~/dev/repos`.
+    In class, we configured it to `~/dev/repos`.
 
     ```bash
     $ cd ~/dev/repos
