@@ -3,15 +3,19 @@
 ## Prerequisites
 
 1. Sign up for an account on GitHub. Choose your username wisely! You'll be professionally associated with this account.
-1. Set up Git on your local machine according to [this guide](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md)
+1. Set up Git on your local machine according to [this guide](https://github.com/outputs-io/dataviz-docs/blob/master/git/README.md).
 
 ## Step by Step
+
+**‼️ IMPORTANT: $ denotes a command that must be entered into Terminal/Git Bash.**
 
 1. In your browser, create a new repo on GitHub: [Create a New Repository](https://github.com/new).
     * Give it a sensible name and descripition.
     * Leave the rest of the settings as default, unless you know what you're doing!
 
-1. In `Terminal.app` or `Git Bash`, navigate to the directory in which you store all your repos. In class, we configured it to `~/dev/repos`.
+1. In `Terminal.app` or `Git Bash`, navigate to the directory in which you store all your repos. 
+
+    In class, we configured it to `~/dev/repos`.
 
     ```bash
     $ cd ~/dev/repos
