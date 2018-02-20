@@ -7,7 +7,7 @@
 
 ## Step by Step
 
-**‼️ IMPORTANT: $ denotes a command that must be pasted into Terminal/Git Bash.**
+**‼️ IMPORTANT: $ denotes a command that must be entered into Terminal/Git Bash.**
 
 1. In your browser, create a new repo on GitHub: [Create a New Repository](https://github.com/new).
     * Give it a sensible name and descripition.
