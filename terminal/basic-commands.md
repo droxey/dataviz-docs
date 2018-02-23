@@ -78,7 +78,7 @@ open [name of file]
 #### Open Finder at the Current Directory (Mac)
 
 ```bash
-open .`
+open .
 ```
 
 ### PC Only
