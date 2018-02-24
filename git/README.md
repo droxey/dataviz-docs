@@ -106,7 +106,7 @@ This will allow you to get a feel for using git in a guided setting, before you 
 1. Double-check your settings:
 
     ```bash
-    $ git config list
+    $ git config --list
 
     credential.helper=osxkeychain
     user.name=Dani Roxberry
