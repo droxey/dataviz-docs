@@ -2,7 +2,12 @@
 
 
 1. **Enable PDF Generation**:
-```bash
-source activate PythonData
-conda install -c anaconda-nb-extensions nbbrowserpdf
-```
+  ```bash
+  source activate PythonData
+  conda install -c anaconda-nb-extensions nbbrowserpdf
+  ```
+
+1. **View Magics**:
+  ```python
+  %lsmagic
+  ```
