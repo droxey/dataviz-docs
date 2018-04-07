@@ -7,7 +7,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
 - **Deploying bots**, written in **Python**
 - on **[Heroku](https://www.heroku.com/)**
 - **without exposing** any **secrets** (_example: API keys_)
-- using only the **command line**.
+- using only the **command line** via [heroku-cli](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
 
 ## Step by Step Guide
 
