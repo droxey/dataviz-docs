@@ -48,7 +48,9 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
     Next, we need to **keep our secret data safe**. API keys, database passwords, and other credentials should **never** be committed to git, nor pushed to GitHub.
 
-    Open the `.env.sample` file in your repository, and paste your keys into the placeholders provided. Once complete, run `mv .env.sample .env` in your terminal to rename the file to `.env`.  Don't worry, `.env` is already in `.gitignore` --- this means secrets are only visible to you, and to Heroku upon deployment.
+    Open the `.env.sample` file in your repository, and paste your keys into the placeholders provided.
+
+    Once complete, run `mv .env.sample .env` in your terminal to rename the file to `.env`.  Don't worry, `.env` is already in `.gitignore` --- this means secrets are only visible to you, and to Heroku upon deployment.
 
 1. **Implement Bot**: open `ChatterBot.py` in your favorite editor, and write your code. Don't forget to test!
 
