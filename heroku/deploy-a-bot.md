@@ -40,9 +40,25 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
     Next, we need to **keep our secret data safe**. API keys, database passwords, and other credentials should **never** be committed to git, nor pushed to GitHub.
 
-    Open the `.env.sample` file in your repository, and paste your keys into the placeholders provided.
+    Inform Heroku of our keys by running `heroku config:set` for each API Key, password, etc:
 
-    Once complete, run `mv .env.sample .env` in your terminal to rename the file to `.env`.  Don't worry, `.env` is already in `.gitignore` --- this means secrets are only visible to you, and to Heroku upon deployment.
+    ```bash
+    heroku config:set CONSUMER_KEY=1ziaVCudxqnGg2aZ7iFPBDqA6
+    heroku config:set CONSUMER_SECRET=pP8eXXtKDSjaQGGOxmMgoeTIySKJlkIoUJ6fnxQt89N3Uw5ziQ
+    heroku config:set ACCESS_TOKEN=981737227536379905-2mZsUFZM6I6w6PZlNzBIIPDR57TU3P6
+    heroku config:set ACCESS_TOKEN_SECRET=7GKRu3AyQZzmvRWqCmCoXVuv9QnMEdRwUrhVfV1W3hXFB
+    ```
+
+    Then store the keys in a special `.env` file by running `heroku config:get KEY_NAME -s >> .env` for each secret value you'd like to store:
+
+    ```bash
+    heroku config:get CONSUMER_KEY -s  >> .env
+    heroku config:get CONSUMER_SECRET -s  >> .env
+    heroku config:get ACCESS_TOKEN -s  >> .env
+    heroku config:get ACCESS_TOKEN_SECRET -s  >> .env
+    ```
+
+    Don't worry, `.env` is already in `.gitignore` --- this means secrets are only visible to you, and to Heroku upon deployment!
 
 1. **Implement Bot**: open `ChatterBot.py` in your favorite editor, and write your code. Don't forget to test!
 
@@ -85,10 +101,11 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
 1. **Deploy to Heroku**
 
-    Finally, run the below command to **deploy** your application to Heroku.
+    Finally, run the below commands to **deploy** your application to Heroku.
 
     ```bash
     git push heroku master
+    heroku ps:scale worker=1
     ```
 
     _**Protip**: be sure to **read the output**. This will come in handy if you run into any errors!_
