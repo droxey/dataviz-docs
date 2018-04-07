@@ -25,7 +25,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
     ```bash
     cd ~/dev/repos
-    git clone git@github.com:outputs-io/heroku-bot.git
+    git clone git@github.com:droxey/heroku-bot.git
     ```
 
 1. **Install requirements** from `requirements.txt`:
