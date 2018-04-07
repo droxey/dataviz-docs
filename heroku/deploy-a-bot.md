@@ -36,14 +36,6 @@ This guide provides a simple to follow, **step by step process** that focuses on
     pip install -r requirements.txt
     ```
 
-1. **Create Heroku App**
-
-    Run `heroku apps:create` to create a new Heroku application, replacing `name-for-app-here` with a name of your choosing:
-
-    ```bash
-    heroku apps:create name-for-app-here
-    ```
-
 1. **Add Environment Variables**
 
     Next, we need to **keep our secret data safe**. API keys, database passwords, and other credentials should **never** be committed to git, nor pushed to GitHub.
@@ -81,6 +73,14 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
     ```bash
     git push origin master
+    ```
+
+1. **Create Heroku App**
+
+    Run `heroku apps:create` to create a new Heroku application, replacing `name-for-app-here` with a name of your choosing:
+
+    ```bash
+    heroku apps:create name-for-app-here
     ```
 
 1. **Deploy to Heroku**
