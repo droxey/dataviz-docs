@@ -31,6 +31,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
 1. **Install requirements** from `requirements.txt`:
 
     ```bash
+    cd heroku-bot
     source activate PythonData
     pip install -r requirements.txt
     ```
