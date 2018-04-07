@@ -11,7 +11,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
 ## Step by Step Guide
 
-1. **Fork** [this repository](https://github.com/coding-boot-camp/heroku-bot) to get started.
+1. **Fork** [this repository](https://github.com/outputs-io/heroku-bot) to get started.
 
     ![fork.png](images/fork.png)
 
@@ -28,6 +28,13 @@ This guide provides a simple to follow, **step by step process** that focuses on
     git clone git@github.com:outputs-io/heroku-bot.git
     ```
 
+1. **Install requirements** from `requirements.txt`:
+
+    ```bash
+    source activate PythonData
+    pip install -r requirements.txt
+    ```
+
 1. **Create Heroku App**
 
     Run `heroku apps:create` to create a new Heroku application, replacing `name-for-app-here` with a name of your choosing:
@@ -40,16 +47,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
     Next, we need to **keep our secret data safe**. API keys, database passwords, and other credentials should **never** be committed to git, nor pushed to GitHub.
 
-    Run `heroku config:set SECRET_KEY=secretvalue` for each environment variable required to execute your application:
-
-    _Example_:
-
-    ```bash
-    heroku config:set CONSUMER_KEY=1ziaVCudxqnGg2aZ7iFPBDqA6
-    heroku config:set CONSUMER_SECRET=pP8eXXtKDSjaQGGOxmMgoeTIySKJlkIoUJ6fnxQt89N3Uw5ziQ
-    heroku config:set ACCESS_TOKEN=981737227536379905-2mZsUFZM6I6w6PZlNzBIIPDR57TU3P6
-    heroku config:set ACCESS_TOKEN_SECRET=7GKRu3AyQZzmvRWqCmCoXVuv9QnMEdRwUrhVfV1W3hXFB
-    ```
+    Open the `.env.sample` file in your repository, and paste your keys into the placeholders provided. Once complete, run `mv .env.sample .env` in your terminal to rename the file to `.env`.  Don't worry, `.env` is already in `.gitignore` --- this means secrets are only visible to you, and to Heroku upon deployment.
 
 1. **Implement Bot**: open `ChatterBot.py` in your favorite editor, and write your code. Don't forget to test!
 
@@ -74,7 +72,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
     git status
     ```
 
-    If `git status` returns a list of files, [return to last step](), then run `git status` again.
+    If `git status` returns a list of files, `add`, `commit`, then run `git status` again.
 
     If `git status` returns `nothing to commit, working tree clean`, excellent! You're ready to push your changes to GitHub:
 
