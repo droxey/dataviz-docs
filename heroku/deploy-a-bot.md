@@ -88,7 +88,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
     Finally, run the below command to **deploy** your application to Heroku.
 
     ```bash
-    git push origin heroku
+    git push heroku master
     ```
 
     _**Protip**: be sure to **read the output**. This will come in handy if you run into any errors!_
