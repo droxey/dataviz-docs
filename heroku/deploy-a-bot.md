@@ -19,7 +19,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
     ![clone.png](images/clone.png)
 
-1. **Open Terminal**, **navigate** to the directory you store your code, and  **clone** this repository to your local machine.
+1. **Open Terminal**, **navigate** to the directory you store your code, and  **clone** your new repository to your local machine.
 
     _Example_:
 
