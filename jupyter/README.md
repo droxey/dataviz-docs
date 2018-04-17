@@ -25,3 +25,7 @@ conda install -c anaconda-nb-extensions nbbrowserpdf
 ```python
 %lsmagic
 ```
+
+#### Additional Resources
+
+* [Jupyter/IPython Notebook Quick Start Guide](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html)
