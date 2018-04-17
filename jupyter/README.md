@@ -28,4 +28,4 @@ conda install -c anaconda-nb-extensions nbbrowserpdf
 
 #### Additional Resources
 
-* [Jupyter/IPython Notebook Quick Start Guide](http://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/index.html)
+* [Jupyter Notebook: The Definitive Guide](https://www.datacamp.com/community/tutorials/tutorial-jupyter-notebook)
