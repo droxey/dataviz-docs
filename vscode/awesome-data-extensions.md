@@ -1,4 +1,7 @@
-# 📊 Awesome Data Extensions for VSCode
+<!-- TITLE: VSCode Extensions -->
+<!-- SUBTITLE: Data science extensions for VSCode -->
+
+# Data Science Extensions for VSCode
 
 [@droxey](https://www.github.com/droxey)'s favorite [VSCode](https://code.visualstudio.com) extensions for use in the [Data Analytics and Visualization](https://bootcamp.berkeley.edu/data/curriculum/) course at UC Berkeley.
 

@@ -1,96 +1,99 @@
+<!-- TITLE: Bash Commands -->
+<!-- SUBTITLE: Cheat sheet for navigating the shell. -->
+
 # Bash / Terminal Commands
 
 These are the basic commands for navigating directories in `Terminal.app` / `Git Bash`.
 
-### Moving Around the Filesystem
+## Moving Around the Filesystem
 
-#### Change Directory
-
-```bash
-cd
-```
-
-#### Change to Root Directory
+### Change Directory
 
 ```bash
-cd ~
+$ cd
 ```
 
-#### Move to One Directory Up
+### Change to Root Directory
 
 ```bash
-cd ..
+$ cd ~
 ```
 
-
-#### View Files and Folders in the Directory
+### Move to One Directory Up
 
 ```bash
-ls
+$ cd ..
 ```
 
-#### Show the Current Directory
+
+### View Files and Folders in the Directory
 
 ```bash
-pwd
+$ ls
 ```
 
-#### Autocomplete a File Name While Typing
+### Show the Current Directory
 
-Press `tab` key once to autocomplete once you have typed a unique portion of a file name. 
+```bash
+$ pwd
+```
+
+### Autocomplete a File Name While Typing
+
+Press `tab` key once to autocomplete once you have typed a unique portion of a file name.
 
 The file must exist in the current directory in order for Autocomplete to work.
 
-### File Manipulations
+## File Manipulations
 
-#### Make New File
+### Make New File
 
 ```bash
-touch [name of file to create]
+$ touch filename.txt
 ```
 
-#### Make a New Folder
+### Make a New Folder
 
 ```bash
-mkdir [name of directory to create]
+$ mkdir directory_name
 ```
 
-#### Delete File
+### Delete File
 
 ```bash
-rm [name of file to remove]
+$ rm filename.txt
 ```
 
-#### Delete Folder
+### Delete Folder
 
 ```bash
-rm -r [name of directory to remove]
+$ rm -r directory_name
 ```
 
-### Mac Only
+## Mac Only
 
-#### Open File or Folder (Mac)
+### Open File or Folder (Mac)
 
 ```bash
-open [name of file]
+$ open filename.txt
 ```
 
-#### Open Finder at the Current Directory (Mac)
+### Open Finder at the Current Directory (Mac)
 
 ```bash
-open .
+$ open .
 ```
 
-### PC Only
+## PC Only
 
-#### Open File or Folder (PC)
+### Open File or Folder (PC)
 
 ```bash
-explorer [name of file]
+$ explorer filename.txt
 ```
 
-#### Open Explorer at the Current Directory (PC)
+### Open Explorer at the Current Directory (PC)
 
 ```bash
-explorer .
+$ explorer .
 ```

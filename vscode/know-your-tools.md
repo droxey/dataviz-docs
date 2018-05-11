@@ -1,3 +1,6 @@
+<!-- TITLE: Know Your Tools -->
+<!-- SUBTITLE: Get familiar with VSCode via customizing your environment. -->
+
 # Know Your Tools: VSCode Edition
 
 > _"If you ever talk to a great programmer, you'll find they know their tools like an artist knows their paintbrushes._ -Bill Gates
