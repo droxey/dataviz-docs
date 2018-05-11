@@ -2,27 +2,27 @@
 
 <!-- SUBTITLE: Cheat sheet for Anaconda -->
 
-# Anaconda: Helpful `conda` Commands
+## Commands
 
-## Assumptions
+> **ASSUMPTIONS**:
+>
+> All commands assume a developer-selected environment name of > `MyPythonProject`.
+>
+> It is recommended that one changes this value, replacing `MyPythonProject` with a name of a suitable match to the intended use of the environment.
 
-All commands assume a developer-selected environment name of `MyPythonProject`.
-
-It is recommended that one changes this value, replacing `MyPythonProject` with a name of a suitable match to the intended use of the environment.
-
-#### Create an Environment
+### Create an Environment
 
 ```bash
 conda create -n MyPythonProject python=3.6 anaconda
 ```
 
-#### Activate an Environment
+### Activate an Environment
 
 ```bash
 source activate MyPythonProject
 ```
 
-#### Remove an Environment
+### Remove an Environment
 
 ```bash
 conda remove --name MyPythonProject --all
