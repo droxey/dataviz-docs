@@ -1,6 +1,5 @@
 <!-- TITLE: Helpful Anaconda Commands -->
-
-<!-- SUBTITLE: Cheat sheet for Anaconda -->
+<!-- SUBTITLE: Cheat Sheet for Anaconda -->
 
 # Commands
 

@@ -1,8 +1,7 @@
 <!--TITLE: Bot Deployment via Heroku -->
+<!-- SUBTITLE: Step by Step Deployment Guide; Deploy Your First Bot on Heroku! -->
 
-<!-- SUBTITLE: Step by step deployment guide; deploy your first bot on Heroku! -->
-
-# Bot Deployment
+# Deployment Guide: Heroku Bots
 
 ## Purpose
 

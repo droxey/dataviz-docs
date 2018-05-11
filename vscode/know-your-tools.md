@@ -1,5 +1,5 @@
 <!-- TITLE: Know Your Tools -->
-<!-- SUBTITLE: Get familiar with VSCode via customizing your environment. -->
+<!-- SUBTITLE: Get Familiar with VSCode via Customizing Your Environment -->
 
 # Know Your Tools: VSCode Edition
 

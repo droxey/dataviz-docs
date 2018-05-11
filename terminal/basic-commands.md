@@ -1,7 +1,7 @@
 <!-- TITLE: Bash Commands -->
 <!-- SUBTITLE: Cheat sheet for navigating the shell. -->
 
-# Bash / Terminal Commands
+# Commands
 
 These are the basic commands for navigating directories in `Terminal.app` / `Git Bash`.
 

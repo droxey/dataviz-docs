@@ -1,5 +1,5 @@
 <!-- TITLE: VSCode Extensions -->
-<!-- SUBTITLE: Data science extensions for VSCode -->
+<!-- SUBTITLE: Data Science Extensions for VSCode -->
 
 # Data Science Extensions for VSCode
 
