@@ -1,3 +1,7 @@
+<!-- TITLE: Helpful Anaconda Commands -->
+
+<!-- SUBTITLE: Cheat sheet for Anaconda -->
+
 # Anaconda: Helpful `conda` Commands
 
 ## Assumptions

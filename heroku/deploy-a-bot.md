@@ -1,25 +1,29 @@
-# How To: Bot Deployment via Heroku
+<!--TITLE: Bot Deployment via Heroku -->
+
+<!-- SUBTITLE: Step by step deployment guide; deploy your first bot on Heroku! -->
+
+# Bot Deployment
 
 ## Purpose
 
 This guide provides a simple to follow, **step by step process** that focuses on:
 
-- **Deploying bots**, written in **Python**
-- on **[Heroku](https://www.heroku.com/)**
-- **without exposing** any **secrets** (_example: API keys_)
-- using only the **command line** via [heroku-cli](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
+* **Deploying bots**, written in **Python**
+* on **[Heroku](https://www.heroku.com/)**
+* **without exposing** any **secrets** (_example: API keys_)
+* using only the **command line** via [heroku-cli](https://devcenter.heroku.com/articles/heroku-cli#download-and-install).
 
 ## Step by Step Guide
 
-1. **Fork** [this repository](https://github.com/outputs-io/heroku-bot) to get started.
+1.  **Fork** [this repository](https://github.com/outputs-io/heroku-bot) to get started.
 
     ![fork.png](images/fork.png)
 
-1. GitHub will redirect you to your new fork. Click the green `Clone or download` button to retreive the **SSH url** of your freshly forked repository. Select the address, and copy it to your clipboard.
+1.  GitHub will redirect you to your new fork. Click the green `Clone or download` button to retreive the **SSH url** of your freshly forked repository. Select the address, and copy it to your clipboard.
 
     ![clone.png](images/clone.png)
 
-1. **Open Terminal**, **navigate** to the directory you store your code, and  **clone** your new repository to your local machine.
+1.  **Open Terminal**, **navigate** to the directory you store your code, and **clone** your new repository to your local machine.
 
     _Example_:
 
@@ -28,7 +32,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
     git clone git@github.com:droxey/heroku-bot.git
     ```
 
-1. **Install requirements** from `requirements.txt`:
+1.  **Install requirements** from `requirements.txt`:
 
     ```bash
     cd heroku-bot
@@ -36,8 +40,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
     pip install -r requirements.txt
     ```
 
-
-1. **Create Heroku App**
+1)  **Create Heroku App**
 
     Run `heroku apps:create` to create a new Heroku application, replacing `name-for-app-here` with a name of your choosing:
 
@@ -45,7 +48,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
     heroku apps:create name-for-app-here
     ```
 
-1. **Add Environment Variables**
+1)  **Add Environment Variables**
 
     Next, we need to **keep our secret data safe**. API keys, database passwords, and other credentials should **never** be committed to git, nor pushed to GitHub.
 
@@ -69,9 +72,9 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
     Don't worry, `.env` is already in `.gitignore` --- this means secrets are only visible to you, and to Heroku upon deployment!
 
-1. **Implement Bot**: open `ChatterBot.py` in your favorite editor, and write your code. Don't forget to test!
+1)  **Implement Bot**: open `ChatterBot.py` in your favorite editor, and write your code. Don't forget to test!
 
-1. **Commit Your Changes Incrementally**
+1)  **Commit Your Changes Incrementally**
 
     **_Great developers commit early and often!_**
 
@@ -82,7 +85,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
     git commit -m "[fix] typo in quote on line 28."
     ```
 
-1. **Push Your Changes to GitHub**
+1)  **Push Your Changes to GitHub**
 
     Ready to take your changes live? Awesome!
 
@@ -100,7 +103,7 @@ This guide provides a simple to follow, **step by step process** that focuses on
     git push origin master
     ```
 
-1. **Deploy to Heroku**
+1)  **Deploy to Heroku**
 
     Finally, run the below commands to **deploy** your application to Heroku.
 
@@ -111,4 +114,4 @@ This guide provides a simple to follow, **step by step process** that focuses on
 
     _**Protip**: be sure to **read the output**. This will come in handy if you run into any errors!_
 
-1. **_Congratulations!_** You've just successfully deployed your application! Show the world!
+1)  **_Congratulations!_** You've just successfully deployed your application! Show the world!
